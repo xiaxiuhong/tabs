@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{ margin-left:100px; margin-top:50px;}
+ul{list-style:none;}
+a{text-decoration:none;}
+.main{width:510px;}
+#tab01{margin-bottom:40px;}
+.tabList li{ float:left;}
+.tabList li a{display:block; height:40px; padding:0 20px; line-height:40px;font:600 16px/40px "microsoft yahei"; color:#000;}
+.tabList .ac a{background-color:#ED3538; color:#fff;}
+.tabCont{clear:left;}
+.tabItem{height:300px; box-shadow:0 0 15px 5px #74A7E4 inset;}
+#tab01 .tabItem:nth-child(2n){box-shadow:0 0 15px 5px #CEE954 inset;}
+#tab02 .tabItem:nth-child(2n-1){box-shadow:0 0 15px 5px #CEE954 inset;}
+.tabItem dt{margin:50px; float:left;}
+.tabItem dd{float:right; width:150px; margin:50px 50px 0 0;}
+.tabItem dd h3 a{ display:block; font:600 14px/25px "microsoft yahei"; color:#E524C0; margin-bottom:20px;}
+.tabItem dd h3 a:hover{text-decoration:underline; color:#1E0FE7;}
+.tabItem dd p{font:15px/25px "microsoft yahei"; color:#000；} 
+#tab01 .tabItem:nth-child(2n) dt{ float:right;}
+#tab01 .tabItem:nth-child(2n) dd{ float:left; margin:50px 0 0 50px;}
+#tab02 .tabItem:nth-child(2n-1) dt{ float:right;}
+#tab02 .tabItem:nth-child(2n-1) dd{ float:left; margin:50px 0 0 50px;}
+.hide{ display:none;}
+img{height:200px; width:200px; border:2px #ccc solid;}
